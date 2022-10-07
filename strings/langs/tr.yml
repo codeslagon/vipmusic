@@ -68,18 +68,18 @@ admin_27 : "Tekrar oynatma devre dışı bırakıldı"
 
 # Başlat
 start_1 : "Beni de içine alarak teşekkürler. {0}.\n{1} yaşıyor.\n\nHerhangi bir yardım veya yardım için destek grubumuza ve kanalımıza göz atın."
-start_2 : "✋🏻 ᴍᴇʀʜᴀʙᴀ {0}.
+start_2 : """✋🏻 ᴍᴇʀʜᴀʙᴀ {0}.
 
 🎯 ʙᴀᴢɪ ᴋᴜʟʟᴀɴɪs‌ʟɪ ᴏ‌ᴢᴇʟʟɪᴋʟᴇʀᴇ sᴀʜɪᴘ ʙɪʀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜ‌ᴢɪᴋ ᴠᴇ ᴠɪᴅᴇᴏ ʙᴏᴛᴜʏᴜᴍ .
 
-⚙️ ʙᴇɴɪ ɢʀᴜʙᴜɴᴜᴢᴀ ᴇᴋʟᴇʏɪᴘ ʏᴏɴᴇᴛɪᴄɪ ʏᴀᴘɪɴ , ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪɴ . . ."
+⚙️ ʙᴇɴɪ ɢʀᴜʙᴜɴᴜᴢᴀ ᴇᴋʟᴇʏɪᴘ ʏᴏɴᴇᴛɪᴄɪ ʏᴀᴘɪɴ , ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪɴ . . ."""
 start_3 : "HoşGeldiniz {0}\n\nİhtiyacım yok. **yönetici izni** ( istenene kadar ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Sahip[{1}] sohbetinize yeni katıldı."
 start_5 : "Üyesi {0}'s Sudo Kullanıcısı[{1}] sohbetinize yeni katıldı."
 start_6 : "❗️ **Süper Grup Gerekli** ❗️\n\nLütfen **group** cihazınızı **supergroup** olarak dönüştürün ve sonra beni geri ekleyin.\n\n**Süper grup nasıl yapılır?**\n✅ Grubunuzun sohbet geçmişini yapma **Görünür** yap."
 
 # Help
-help_1 : "Daha fazla bilgi için aşağıdaki düğmelere tıklayın. Komutta herhangi bir sorunla karşı karşıyaysanız, bot sahibime başvurabilir veya destek sohbetinde sorabilirsiniz.\n\nTüm komutlar şu şekilde kullanılabilir: /"
+help_1 : "**• Daha fazla bilgi için aşağıdaki butonlara tıklayın.**"
 help_2 : "Yardım için PM'de bana ulaşın."
 
 # Settings
@@ -230,7 +230,7 @@ stream_4 : "🔊 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** [{0}]({1})\
 
 #General Buttons
 CLOSE_BUTTON  : "**🗑Kapat**"
-CLOSEMENU_BUTTON  : "**🗑Kapat**"
+CLOSEMENU_BUTTON  : "🗑Kapat"
 BACK_BUTTON : "⬅ Geri"
 UNBAN_BUTTON : "🗑 Unban Yardımcısı"
 
@@ -245,14 +245,14 @@ S_B_4 : "📨 Kanal"
 S_B_5 : "✚ Beni Grubuna Ekle"
 S_B_6 : "💡 Git Repo"
 S_B_7 : "👤 Bot Sahibi"
-S_B_8 : "🔎 Nasıl Kullanılır? Komutlar Menüsü."
+S_B_8 : "🔮 Nasıl Kullanılır? Komutlar Menüsü."
 
 #Help 
-H_B_1 : "Yönetici Komutları"
-H_B_2 : "Komutları Yürüt"
-H_B_3 : "Bot Komutları"
-H_B_4 : "Ek Komutlar"
-H_B_5 : "Menüyü Kapat"
+H_B_1 : "✨Yönetici Komutları"
+H_B_2 : "🎛Komutlar"
+H_B_3 : "🗄Tüm Komutlar"
+H_B_4 : "🌪Özellikler"
+H_B_5 : "🗑Kapat"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
