@@ -225,7 +225,7 @@ stream_4 : "🔊 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** [{0}]({1})\
 # Satır İçi Düğmeler
 
 #General Buttons
-CLOSE_BUTTON  : "**🗑Kapat**"
+CLOSE_BUTTON  : "🗑Kapat"
 CLOSEMENU_BUTTON  : "🗑Kapat"
 BACK_BUTTON : "⬅ Geri"
 UNBAN_BUTTON : "🗑 Unban Yardımcısı"
