@@ -1,6 +1,6 @@
 ### Telegram tabanlı gelişmiş bot 🎧
 
-- Türkçe 🇹🇷 Dil Yaması Eklendi.. 
+- Türkçe 🇹🇷 Dil Yamas Eklendi.. 
 
 - Orjinal Repo [Yukki Team](https://github.com/TeamYukki/YukkiMusicBot) 
 
