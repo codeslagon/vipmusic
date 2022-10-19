@@ -116,11 +116,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", "BACNfqB9ksCJ3a0MhV9bRVjuK0_l06M4E3U8YOby2HqVVD4pQBnw43B1rxQIPz3TUdoKs43aQpCEL7qsaIH-TwbXzsXecquMhQYbOf81KDy8FH0qfJncijXettTn6tPCPEVxm3bKfxrcYkgzGqIMBzs6vHMMcU7VA2ihpyCprsRwDnA22dRqvaBY_IJHMmdLmkpfaH1FcoFSNOcIBHtkpZUkHl_VDnHDT7SsrnknIc1uhAW0zVQD-5DOu_nGp3iwmSfkxRlW6xl3cYqj3e3pmgOoygiVlPbvemdXVS06JWpoSK8SfsggPEY1ZelFz99riebOIHooPNsBcxCoS9zojgGgAAAAAVTS1sEA")
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
