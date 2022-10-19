@@ -30,12 +30,12 @@ HELP_3 = """**📊 /stats Grupda İstatikleri Alır.**
 **🎙 /song Müzik İndirmeye Yarar.**"""
 
 
-HELP_4 = """**✨ /start Botu Başlatır.**
-**✨ /help Yardım Menüsü.**
-**✨ /settings Grup içinde Ayarlar.**
+HELP_4 = """**🚀 /start Botu Başlatır.**
+**🎧 /help Yardım Menüsü.**
+**⚡ /settings Grup içinde Ayarlar.**
 
 **🎛Komutlar**
-**📮 /atla Şarkı / Video Atlar.**
-**📮 /son Şarkı / Video Bitirir.**
-**📮 /durdur Şarkı / Video Devam Ettirir.**
-**📮 /devam Şarkı / Video Devam Ettirir.**"""
+**⏏ /atla Şarkı / Video Atlar.**
+**⏺ /son Şarkı / Video Bitirir.**
+**⏹ /durdur Şarkı / Video Devam Ettirir.**
+**⏸ /devam Şarkı / Video Devam Ettirir.**"""
