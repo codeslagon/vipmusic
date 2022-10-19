@@ -17,18 +17,18 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "29569563"))
+API_HASH = getenv("API_HASH", "d4df9f3d9c24a5292d5cf5a514d11a7a")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5367216582:AAGqihlRt5Hb9OStLfupjyJ-uA5LmtIxp3M")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.m2o4idd.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "180")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001624785668"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⛧ŁαG̴Ծղ ϻǗŜĮČ 舞")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1495872820").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/QuitBRO"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -76,7 +76,7 @@ AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "540000")
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
