@@ -23,19 +23,19 @@ def lanuages_keyboard(_):
         ),
         InlineKeyboardButton(
             text="-",
-            callback_data=f"languages:hi",
+            callback_data=f"languages:tr",
         ),
     )
     keyboard.row(
         InlineKeyboardButton(
             text="-󠁧󠁢󠁥󠁮󠁧󠁿",
-            callback_data=f"languages:en",
+            callback_data=f"languages:tr",
         ),
     )
     keyboard.row(
         InlineKeyboardButton(
             text="-",
-            callback_data=f"languages:si",
+            callback_data=f"languages:tr",
         ),
         # InlineKeyboardButton(
         #    text="🇪🇸 Español",
@@ -97,11 +97,11 @@ async def language_markup(client, CallbackQuery, _):
     try:
         _ = get_string(langauge)
         await CallbackQuery.answer(
-            "Successfully changed your language.", show_alert=True
+            "Başarılı...", show_alert=True
         )
     except:
         return await CallbackQuery.answer(
-            "Failed to change language or Language under update.",
+            "Hatalı...",
             show_alert=True,
         )
     await set_lang(CallbackQuery.message.chat.id, langauge)
