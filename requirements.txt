@@ -1,5 +1,5 @@
 aiofiles
-aiohttp==3.8.1 
+aiohttp
 asyncio
 dnspython
 ffmpeg-python==0.2.0 
@@ -12,14 +12,12 @@ pillow
 psutil
 py-tgcalls==0.8.6 
 pykeyboard
-pyrogram==1.4.12
+pyrogram==1.4.16
 python-dotenv
 pyyaml==5.3.1
 requests
-speedtest-cli
 spotipy
 tgcrypto
 wget
 youtube-search
 youtube-search-python
-yt-dlp
