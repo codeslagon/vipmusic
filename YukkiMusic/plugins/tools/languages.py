@@ -23,7 +23,7 @@ def lanuages_keyboard(_):
         ),
         InlineKeyboardButton(
             text="-",
-            callback_data=f"languages:tr",
+            callback_data=f"languages:en",
         ),
     )
     keyboard.row(
